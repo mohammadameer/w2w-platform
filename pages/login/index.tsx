@@ -18,7 +18,7 @@ export default function Login() {
         // here i would save the token to use for future requests and push to the dashboard
       },
     });
-    router.push("/home");
+    router.push("/dashboard");
   };
 
   return (

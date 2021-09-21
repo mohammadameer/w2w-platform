@@ -16,8 +16,8 @@ export default function Home() {
         <Link href="/register" passHref>
           <Button title="Register" />
         </Link>
-        <Link href="/home" passHref>
-          <Button title="Home" />
+        <Link href="/dashboard" passHref>
+          <Button title="Dashboard" />
         </Link>
       </div>
     </div>

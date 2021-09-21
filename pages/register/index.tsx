@@ -18,7 +18,7 @@ export default function Register() {
         // here i would save the toekn and data and push to dashboard
       },
     });
-    router.push("/home");
+    router.push("/dashboard");
   };
 
   return (

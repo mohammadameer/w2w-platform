@@ -25,19 +25,6 @@ const eventData = {
   ],
 };
 
-const options = {
-  scales: {
-    yAxes: [
-      {
-        ticks: {
-          beginAtZero: true,
-        },
-      },
-    ],
-    xAxes: [{ barThickness: 0.3 }],
-  },
-};
-
 const Home = () => {
   return (
     <div className="w-10/12 h-screen flex flex-row">
@@ -148,7 +135,7 @@ const Home = () => {
                 height={5}
               />
             </div>
-            <Bar data={subscribersData} options={options} />
+            <Bar data={subscribersData} />
           </div>
         </div>
         {/* Active Events */}
@@ -236,7 +223,7 @@ const Home = () => {
         {/* Event Activities */}
         <div className="mt-5">
           <p>Events Activities</p>
-          <Bar data={eventData} options={options} />
+          <Bar data={eventData} />
         </div>
         {/* Leaderboard */}
         <div className="p-5 bg-white shadow-md rounded-md">
