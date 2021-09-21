@@ -4,7 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
-import useRegister from "./useRegister";
+import useRegister from "../../services/useRegister";
 import { useRouter } from "next/dist/client/router";
 
 export default function Register() {

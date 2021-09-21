@@ -4,7 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
-import useLogin from "./useLogin";
+import useLogin from "../../services/useLogin";
 import { useRouter } from "next/dist/client/router";
 
 export default function Login() {

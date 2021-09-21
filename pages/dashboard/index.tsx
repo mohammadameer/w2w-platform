@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Home from "./components/Home";
-import SideBar from "./components/SideBar";
+import Home from "../../components/dashboard/Home";
+import SideBar from "../../components/dashboard/SideBar";
 
 export default function Dashboard() {
   return (
